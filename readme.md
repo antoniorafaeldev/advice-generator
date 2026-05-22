@@ -10,7 +10,7 @@ Essa é uma solução para o [Desafio Advice Generator](https://www.frontendment
 
 Este projeto é um gerador de conselhos, onde ao clicar no botão, um novo conselho aleatório é gerado.
 
-## Acesse o Advice Generator [clicando aqui](https://antoniorafaeldev.github.io/todo-app/)
+## Acesse o Advice Generator [clicando aqui](https://antoniorafaeldev.github.io/advice-generator/)
 
 
 ## 🚀 Tecnologias
