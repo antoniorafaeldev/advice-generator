@@ -5,19 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Advice Generator</title>
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
 </head>
 <body>
     <main class="main">
         <section class="advice-container">
-            <span class="advice-number">Advice #1</span>
-            <h1 class="advice">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta explicabo cupiditate mollitia commodi.</h1>
-            <img src="./assets/img/pattern-divider-mobile.svg" alt="Pattern divider for mobile devices" class="divider-img">
-            <button class="advice-change-button">
+            <span class="advice-number" id="advice-number">Advice #1</span>
+            <h1 class="advice" id="advice"></h1>
+
+            </h1>
+            <img src="./assets/img/pattern-divider-mobile.svg" alt="Pattern divider for mobile devices" class="divider-mobile-img">
+            <img src="./assets/img/pattern-divider-desktop.svg" alt="Pattern divider for desktop devices" class="divider-desktop-img">
+            <button class="advice-change-button" id="advice-change-button">
                 <img src="./assets/img/icon-dice.svg" alt="Dice icon for changing advice">
             </button>
 
         </section>
     </main>
-
+    
+    <script type="module" src="./src/js/main.js"></script>
 </body>
 </html>

@@ -37,11 +37,11 @@ body {
     align-items: center;
     background-color: var(--color-blue900);
 
-    padding: 1.5rem;
+    padding: 2.5rem;
 }
 
 .advice-number {
-    font-size: .75rem;
+    font-size: 1rem;
     color: var(--color-green300);
     letter-spacing: .25em;
     text-transform: uppercase;
@@ -55,8 +55,9 @@ body {
 
 }
 
-.divider-img {
+.divider-mobile-img, .divider-desktop-img {
     margin-bottom: 1.5rem;
+
 }
 
 .advice-change-button {

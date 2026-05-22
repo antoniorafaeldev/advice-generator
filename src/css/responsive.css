@@ -1,0 +1,6 @@
+@media (max-width: 768px) {
+  .divider-desktop-img { display: none; }
+}
+@media (min-width: 769px) {
+  .divider-mobile-img { display: none; }
+}
