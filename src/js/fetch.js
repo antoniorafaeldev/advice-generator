@@ -8,7 +8,7 @@ export async function getAdvice() {
 
 function changeAdvice(advice){
     const adviceElement = document.getElementById("advice")
-    adviceElement.textContent = advice.slip.advice
+    adviceElement.textContent = `"${advice.slip.advice}"`
 }
 
 function changeAdviceNumber(advice){
